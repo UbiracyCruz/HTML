@@ -28,8 +28,15 @@ section{
     padding: 10px 20px;
     text-align: center;
 }
+.header h1{
+    padding: 0px;
+    margin: 0px;
+}
+
 .header h2{
-    font-size: 12px;
+    font-size: 14px;
+    padding: 0px;
+    margin: 0px;
 }
 .navbar {
     background-color: var(--blue-white);
