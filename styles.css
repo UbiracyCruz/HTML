@@ -57,6 +57,9 @@ section{
     color: var(--blue-dark);
     text-decoration: none;
 }
+.navbar a:hover {
+    color: var(--light-shade);
+  }
 .navbar a i {
     margin-right: 10px; /* Space between icon and text */
     font-size: 1.5 rem;
@@ -146,10 +149,10 @@ footer a {
 .button:hover {
     background-color: #128C7E;
 }
-/* Responsive design for mobile devices */
+
 @media (max-width: 600px) {
-    .navbar {
-        display: flex; /* Show on mobile */
+    body{
+        margin-bottom:3rem;
     }
     .navbar a {
         display: flex;
@@ -158,11 +161,25 @@ footer a {
     }
     .navbar a i {
         margin-right: 0; /* Remove space when only showing icons */
-        font-size: 3rem;
+        font-size: 2rem;
     }
     .services {
         grid-auto-flow: row;
         align-items: center;
+    }
+    span{
+        display:none
+    }
+    .navbar a:hover{
+        span{
+            display:block
+        }
+    }
+    .navbar {
+        position: fixed;
+        bottom: 0;
+        top: unset;
+        height: 3rem;
     }
 }
 
