@@ -19,26 +19,26 @@ body {
 }
 section{
 	background-color: var(--blue-white);
-	padding: 10px;
+	padding: 50px;
 	border-radius: 8px;
 }
-.header {
+header {
     background-color: var(--blue-dark);
     color: var(--blue-white);
     padding: 10px 20px;
     text-align: center;
 }
-.header h1{
+header h1{
     padding: 0px;
     margin: 0px;
 }
 
-.header h2{
+header h2{
     font-size: 14px;
     padding: 0px;
     margin: 0px;
 }
-.navbar {
+nav {
     background-color: var(--blue-white);
     color: var(--blue-dark);
     display: flex;
@@ -53,18 +53,18 @@ section{
     text-align: center;
     justify-content: space-evenly;
 }
-.navbar a {
+nav a {
     color: var(--blue-dark);
     text-decoration: none;
 }
-.navbar a:hover {
+nav a:hover {
     color: var(--light-shade);
   }
-.navbar a i {
+nav a i {
     margin-right: 10px; /* Space between icon and text */
     font-size: 1.5 rem;
 }
-.content {
+main {
     padding: 20px;
     text-align: center;
 }
@@ -76,7 +76,7 @@ section{
     margin-top: 20px;
 }
 .service {
-    background-color: var(--blue-white);
+    background-color: white;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -154,12 +154,12 @@ footer a {
     body{
         margin-bottom:3rem;
     }
-    .navbar a {
+    nav a {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .navbar a i {
+    nav a i {
         margin-right: 0; /* Remove space when only showing icons */
         font-size: 2rem;
     }
@@ -170,12 +170,12 @@ footer a {
     span{
         display:none
     }
-    .navbar a:hover{
+    nav a:hover{
         span{
             display:block
         }
     }
-    .navbar {
+    nav {
         position: fixed;
         bottom: 0;
         top: unset;
