@@ -24,11 +24,19 @@ section{
     margin-bottom: 50px;
 }
 header {
+    display: grid;
+    grid-template-areas: 2fr 1fr;
     background-color: var(--blue-dark);
     color: var(--blue-white);
     padding: 10px 20px;
     text-align: center;
     background-image: url("./images/bg480.jpg");
+}
+#box1{
+    background-color: hotpink;
+}
+#box2{
+    background-color: white;
 }
 header h1{
     padding: 0px;
