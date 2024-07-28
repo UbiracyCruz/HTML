@@ -4,71 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Line Internet - Conectada com você</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="planos.json">
+    
 </head>
 <body>
     <header>
-        <h1 id="box1">LINE INTERNET</h1>
-	    <h2 id="box2">Conectada com você</h2>
+        <h1 id="frase">Escolha seu plano e contrate já!</h1>
+        <div id="logo"></div>
+        <div id="box3">
+            <a href="https://lineconect.sgp.tsmx.com.br/accounts/central/login?next=/central/home/" class="button">Área do Cliente</a>
+            <a href="https://wa.me/556332252474?text=Oi" class="button">3225-2474</a>
+        </div>
     </header>
-    <nav>
-        <a href="#top"><i class="fas fa-home"></i><span>Início</span></a>
-        <a href="#tiers"><i class="fas fa-list"></i><span>Planos</span></a>
-        <a href="#clients"><i class="fas fa-user"></i><span>Central do Assinante</span></a>
-        <a href="#contact"><i class="fas fa-envelope"></i><span>Contato</span></a>
-        <a href="#about"><i class="fas fa-info-circle"></i><span>Sobre Nós</span></a>
-    </nav>
     <main>
-	<h1 id="tiers">Planos de Internet</h1>
-        <section class="services">
-            <div class="service">
-                <h3>100mbps</h3>
+        <section class="services page">
+            <h1 id="tiers">Planos de Internet</h1>
+            <section class="service">
+                <h1><div id="number">1</div><div id="zeros">00<div id="text">mega</div></div></h1>
                 <p>Ideal para uso básico de internet e streaming.</p>
-            </div>
-            <div class="service">
-                <h3>300mbps</h3>
-                <p>Perfeito para uso moderado, jogos, e streaming em HD.</p>
-            </div>
-            <div class="service">
-                <h3>400mbps</h3>
+            </section>
+            <section class="service">
+                <h1><div id="number">3</div><div id="zeros">00<div id="text">mega</div></div></h1>
+                <section id="list">
+                    <ul>
+                    <li>Instalação grátis</li>
+                    <li>Wifi-Line</li>
+                    <li>IP Fixo (IPv6)</li>
+                    <li>Ubook</li>
+                    </ul>
+                </section>
+                <section class="border-top" id="apps">
+                    <p>Tenha acesso aos apps favoritos de forma ilimitada</p>
+                </section>
+                <section class="border-top" id="price">
+                    <p>Por apenas</p>
+                        <div id="cifrao">R$</div>
+                        <div id="number">89</div>
+                        <div id="cents">,90/mês</div>
+                </section>
+            </section>
+            <section class="service">
+                <h1><div id="number">4</div><div id="zeros">00<div id="text">mega</div></div></h1>
                 <p>Suitable for heavy usage, multiple devices, and 4K streaming.</p>
-            </div>
-            <div class="service">
-                <h3>600mbps</h3>
-                <p>Ultimate speed for high-demand environments and professional use.</p>
-            </div>
+            </section>
         </section>
-        <section class="central-assinante">
-            <h2 id="clients">Central do Assinante</h2>
-            <p>Welcome to our Central do Assinante. Here you can find more information about our services and support.</p>
-            <a href="https://lineconect.sgp.tsmx.com.br/accounts/central/login?next=/central/home/" class="button">Ir para a Central do Assinante</a>
-        </section>
-        <section class="contact-form">
-            <h1 id="contact">Contato</h1>
-            <form id="whatsappForm">
-            <label for="name">Nome</label>
-            <input type="text" id="name" name="name" required placeholder="Maria José">
-
-            <label for="message">Mensagem</label>
-            <textarea id="message" name="message" required placeholder="Gostaria de contratar um plano!"></textarea>
-
-            <button class="button" type="submit">Falar no WhatsApp</button>
-            </form>
-        </section>
-        <section class="about-us">
+        <section class="about-us page">
 	    <h1 id="about">Sobre Nós</h1>
             <p>A Line  Conect é uma empresa situada em Palmas, Tocantins. Foi fundada em 2009. Trabalhamos como provedores de internet via fibra na região de Taquaralto. Nosso principal objetivo é continuar crescendo e oferecendo sempre os melhores serviços aos nossos clientes.</p>
-            <img src="./images/bg480.jpg" alt="Telecommunications Activity">
         </section>
     </main>
     <footer>
-    <div class="footer-content">
         <p>Horário de atendimento de Segunda-feira a Sábado, 08:00 até 18:00</p>
         <p>Entre em contato por ligação ou whatsapp: <a href="https://wa.me/556332252474?text=Oi">3225-2474</a></p>
-    </div>
     </footer>
-    <script src="script.js"></script>
 </body>
 </html>
