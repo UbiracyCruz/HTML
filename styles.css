@@ -23,7 +23,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #b14688;
-  background-image: url("/images/blue-red-landscape.jpg");
+  background-image: url("./images/blue-red-landscape.jpg");
   background-size: cover;
   justify-content: end;
   color: var(--purple-text);
@@ -47,7 +47,7 @@ header {
   align-items: center;
   background-color: white;
   background-size: contain;
-  background-image: url("/images/LOGO-200px.jpg");
+  background-image: url("./images/LOGO-200px.jpg");
   background-repeat: no-repeat;
   border-bottom-right-radius: 25%;
   box-shadow: 4px 2px 5px rgba(0,0,0,0.1);
@@ -76,7 +76,6 @@ main {
 }
 .services {
   display: grid;
-  /* grid-auto-flow: column; */
   justify-content: center;
   gap: 20px;
   margin-top: 20px;
